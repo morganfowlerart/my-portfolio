@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>{{ page.title }}</title>
+	
+	
+	<style>
+	
+		body{
+			font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+			padding: 2rem; 
+			background-color: #f9f9f9;
+			color:#333;
+			
+		}
+		
+		h1 {
+			text-align: center;
+			margin-bottom: 2rem;
+		}
+		
+		.design-grid {
+			display: grid; 
+			grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+			gap: 1.5rem;
+			max-width: 1200px;
+			margin: 0 auto;
+		}
+	
+		.design-card {
+			background: #FFF;
+			border: 1px solid #e0e0e0;
+			padding: 1.5rem;
+			border-radius: 12px;
+			box-shadow: 0 4px 6px rgba(0,0,0,0.5);
+			transition: transform 0.2s ease;
+			
+		}
+		
+		.design-card:hover{
+			transform: translateY(-4px);
+		}
+	
+		
+		.design-card h2 {
+			font-size:1.2rem;
+			margin-top: 0;
+			
+		}
+		
+		.design-card p {
+			margin: 0.5rem 0; 
+		}
+		
+		.design-card a {
+			display: inline-block;
+			margin-top: 1rem;
+			color: #0077cc;
+			text-decoration: none;
+			font-weight: bold;
+			
+		}
+		
+		.design-card a:hover {
+			text-decoration: underline;
+		}
+		
+	</style>
+	
+	
+	
+</head>
+
+<body>
+	
+	<h1> Featured Design Projects </h1>
+	
+	<div class="design-grid">
+		
+		{% for design in site.design %}
+		
+	
+		<div class="design-card">
+		<h2>{{ design.title }}</h2>
+			
+			{% if design.tools %}
+			<p>
+				<strong>Tools:</strong>{{ design.tools | join: ", " }}
+			</p>	
+			{% endif %}
+			
+		
+			
+			<p>{{ design.description }}</p>
+			
+			<a href="{{ design.url }}">View Project</a>
+		
+		</div>
+		{% endfor %}
+	</div>
+	
+</body>
+</html>
