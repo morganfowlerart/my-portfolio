@@ -1,27 +1,2 @@
 /* CSS Document */
 
-body {
-	background: #FFE0FC;
-			}
-
-p, h1, h3, h4{
-	font-family: "stevie-sans", sans-serif;
-font-weight: 400;
-font-style: normal;
-}
-
-h2 {font-family: "mudstone-sans", sans-serif;
-font-weight: 900;
-	font-style: normal;}
-
-.flex-container
-{
-	display: flex;
-	justify-content: space-around;
-	flex-wrap: wrap;
-	flex-direction: row;
-}
-
-
-
-
