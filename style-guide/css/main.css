@@ -1,202 +1,27 @@
 /* CSS Document */
 
 body {
-	background-color: antiquewhite;
-	margin: 20px 40px 20px 40px;
+	background: #FFE0FC;
 			}
-
-.topnav {
-  background-color:rgba(44,23,16,1.00);
-  overflow: hidden;
-	font-family: "mudstone-sans", sans-serif;
-	font-weight: 900;
-	font-style: normal;
-	color:rgba(44,23,16,1.00);
-}
-
-
-.topnav a {
-  float: left;
-  color: antiquewhite;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-
-.topnav a:hover {
-  background-color:rgba(199,198,254,1.00);
-  color: black;
-}
-
-
-.topnav a.active {
-  background-color: rgba(199,198,254,1.00);
-  color:rgba(44,23,16,1.00);
-}
 
 p, h1, h3, h4{
 	font-family: "stevie-sans", sans-serif;
-	font-weight: 400;
-	font-style: normal;
-	color: rgba(44,23,16,1.00);
+font-weight: 400;
+font-style: normal;
 }
 
-.header {
-	border: rgba(44,23,16,1.00);
+h2 {font-family: "mudstone-sans", sans-serif;
+font-weight: 900;
+	font-style: normal;}
+
+.flex-container
+{
 	display: flex;
-	justify-content: space-evenly;
-	flex-flow: row;
-	flex-flow: wrap;
-	unicode-bidi: isolate;
-	
-}
-
-.headline-copy{
-	font-family: "mudstone-sans", sans-serif;
-	font-weight: 900;
-	font-style: normal;
-	color:rgba(44,23,16,1.00);}
-
-.headline-copy-img {
-	font-family: "mudstone-sans", sans-serif;
-	font-weight: 900;
-	font-style: normal;
-	color: antiquewhite;
-}
-
-.body-copy-img {
-	font-family: "stevie-sans", sans-serif;
-	font-weight: 400;
-	font-style: normal;
-	color: antiquewhite;
-	padding: 10px 50px 10px 50px;
-}
-
-.body-copy {
-	font-family: "stevie-sans", sans-serif;
-	font-weight: 400;
-	font-style: normal;
-	color: rgba(44,23,16,1.00); }
-
-h2 {
-	font-family: "mudstone-sans", sans-serif;
-	font-weight: 900;
-	font-style: normal;
-	color:rgba(44,23,16,1.00);
-}
-
-
-
-.section {
-	margin: 50px 50px; 
-}
-
-.paragraph {
-	margin: 50px 50px;
-}
-
-.flex-container {
-  	display: flex;
-	justify-content: space-evenly;
- 	flex-direction: row;
-}
-
-.sec-img{
-	position: relative;
-	display: block;
-	min-width: 500px;
-	max-width:500px;
-	min-height:755px;
-	max-height:755px;
-	background-image: url("../../img/hydrangea.png");
-	margin: 0 auto;
-
-}
-
-@media (max-width: 800px) {
-  .flex-container {
-    flex-direction: column;
-  }
-}
-
-.para-margin {
-	flex-direction: row;
+	justify-content: space-around;
 	flex-wrap: wrap;
-	max-width: 50%;
-}
-
-.code-box {
-	background-color: rgba(44,24,15,1.00);
-	color: antiquewhite; 
-	padding: 15px 15px 15px 15px;
-	line-height: 42px;
-}
-
-.code {
-	font-family: "monospace";
+	flex-direction: row;
 }
 
 
-
-.dot1 {
-  height: 175px;
-  width: 175px;
-  background-color:rgba(200,199,255,1.00);
-  border-radius: 50%;
-	display: inline-block;
-}
-	
-	.dot2 {
-  height: 175px;
-  width: 175px;
-  background-color: rgba(255,62,7,1.00);
-  border-radius: 50%;
-	display: inline-block; 
-} 
-
-	.dot3 {
-  height: 175px;
-  width: 175px;
-  background-color:rgba(183,157,134,1.00);
-  border-radius: 50%;
-		display: inline-block; 
-} 
-
-.dot4 {
-  height: 175px;
-  width: 175px;
-  background-color: rgba(160,179,221,1.00);
-  border-radius: 50%;
-		display: inline-block; 
-} 
-
-.dot5 {
-  height: 175px;
-  width: 175px;
-  background-color: rgba(44,24,15,1.00);
-  border-radius: 50%;
-		display: inline-block; 
-} 
-
-.dark-circle {
-	color: antiquewhite;
-}
-
-.container {
-	position: relative;
-	text-align: center;
-	color: antiquewhite;
-}
-
-.centered {
-	display: block;
-	position: absolute;
-	
-
-	
-	
-}
 
 
