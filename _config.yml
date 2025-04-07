@@ -7,3 +7,4 @@ instagram: "https://www.instagram.com/thefontsnob/"
 collections: 
 design: 
 output: true
+permalink: /designs/:name/
