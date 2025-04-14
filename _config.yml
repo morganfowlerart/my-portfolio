@@ -6,6 +6,6 @@ baseurl: "/my-portfolio/"
 instagram: "https://www.instagram.com/thefontsnob/"
 
 collections: 
-  design: 
-    output: true
-    permalink: /:collection/:path/
+design: 
+output: true
+permalink: /:collection/:path/
