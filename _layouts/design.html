@@ -1,12 +1,10 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>{{ page.title }}</title>
-	
-	
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>{{ page.title }}</title>
 	<style>
-	
 		body{
 			font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 			padding: 2rem; 
@@ -67,38 +65,13 @@
 		}
 		
 	</style>
-	
-	
-	
 </head>
-
 <body>
 	
 	<h1> Featured Design Projects </h1>
 	
-	<div class="design-grid">
-		
-		{% for design in site.design %}
-		
-	
-		<div class="design-card">
-		<h2>{{ design.title }}</h2>
-			
-			{% if design.tools %}
-			<p>
-				<strong>Tools:</strong>{{ design.tools | join: ", " }}
-			</p>	
-			{% endif %}
-			
-		
-			
-			<p>{{ design.description }}</p>
-			
-			<a href="{{ design.url }}">View Project</a>
-		
-		</div>
-		{% endfor %}
-	</div>
+{{ content }}
 	
 </body>
 </html>
+	

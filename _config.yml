@@ -1,10 +1,11 @@
-title: Morgan Fowler Portfolio
+title: My Portfolio
+name: Morgan Fowler
 email: morganafowler@hotmail.com
-baseurl: "/my-portfolio"
+baseurl: "/my-portfolio/"
 
 instagram: "https://www.instagram.com/thefontsnob/"
 
 collections: 
 design: 
 output: true
-permalink: /designs/:name/
+permalink: /:collection/:path/
