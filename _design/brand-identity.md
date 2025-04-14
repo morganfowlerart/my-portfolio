@@ -2,7 +2,7 @@
 title: "Brand Identity"
 tools: [Photoshop, InDesign]
 description: "Morgan Fowler's personal brand identity."
-layout: design
+layout:
 permalink:
 ---
 
